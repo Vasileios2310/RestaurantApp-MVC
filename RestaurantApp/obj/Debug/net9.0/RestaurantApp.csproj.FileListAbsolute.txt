@@ -2,6 +2,7 @@
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/bin/Debug/net9.0/appsettings.json
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/bin/Debug/net9.0/RestaurantApp.staticwebassets.runtime.json
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/bin/Debug/net9.0/RestaurantApp.staticwebassets.endpoints.json
+/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/bin/Debug/net9.0/RestaurantDB.db
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/bin/Debug/net9.0/RestaurantApp
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/bin/Debug/net9.0/RestaurantApp.deps.json
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/bin/Debug/net9.0/RestaurantApp.runtimeconfig.json
@@ -291,4 +292,3 @@
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/RestaurantApp.pdb
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/RestaurantApp.genruntimeconfig.cache
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/ref/RestaurantApp.dll
-/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/bin/Debug/net9.0/RestaurantDB.db
