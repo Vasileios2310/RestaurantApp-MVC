@@ -43,4 +43,19 @@ public class IngredientController : Controller
         }
         return View(ingredient);
     }
+    
+    //Ingredient/Delete
+    [HttpGet]
+    public async Task<IActionResult> Delete(int id)
+    {
+        return View(await ingredientRepository.GetByIdAsync(id, new QueryOptions<Ingredient> { Includes = "ProductIngredients.Product"}));
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Delete(Ingredient ingredient)
+    {
+        await ingredientRepository.DeleteAsync(ingredient.IngredientId);
+        return RedirectToAction("Index");
+    }
 }

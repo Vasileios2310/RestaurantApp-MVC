@@ -55,8 +55,10 @@ public class Repository<T> : IRepository<T> where T : class
         throw new NotImplementedException();
     }
 
-    public Task DeleteAsync(int id)
+    public async Task DeleteAsync(int id)
     {
-        throw new NotImplementedException();
+        T entity = await _dbSet.FindAsync(id);
+        _dbSet.Remove(entity);
+        await _applicationDbContext.SaveChangesAsync();
     }
 }
