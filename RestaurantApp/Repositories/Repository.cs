@@ -21,9 +21,27 @@ public class Repository<T> : IRepository<T> where T : class
        return await _dbSet.ToListAsync();
     }
 
-    public Task<T> GetByIdAsync(int id, QueryOptions<T> options)
-    {
-        throw new NotImplementedException();
+    public async Task<T> GetByIdAsync(int id, QueryOptions<T> options)
+    { 
+        IQueryable<T> query = _dbSet;
+        if (options.HasWhere)
+        {
+            query = query.Where(options.Where);
+        }
+        
+        if (options.HasOrderBy)
+        {
+            query = query.OrderBy(options.OrderBy);
+        }
+        
+        foreach (string include in options.GetIncludes())
+        {
+            query = query.Include(include);
+        }
+
+        var key = _applicationDbContext.Model.FindEntityType(typeof(T)).FindPrimaryKey().Properties.FirstOrDefault();
+        string primaryKeyName = key?.Name;
+        return await query.FirstOrDefaultAsync(q => EF.Property<int>(q, primaryKeyName) == id);
     }
 
     public Task AddAsync(T entity)

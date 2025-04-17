@@ -20,10 +20,9 @@ public class QueryOptions<T> where T : class
     public string[] GetIncludes() => includes;
     
     // checks if the Where property has been set
-    //It doesn’t need a setter because it is derived from the Where property.
+    // It doesn’t need a setter because it is derived from the Where property.
     // It’s just a read-only flag that’s calculated on the fly
     public bool HasWhere => Where != null;
     
     public bool HasOrderBy => OrderBy != null;
-    
 }
