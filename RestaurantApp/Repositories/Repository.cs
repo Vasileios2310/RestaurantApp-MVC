@@ -44,9 +44,10 @@ public class Repository<T> : IRepository<T> where T : class
         return await query.FirstOrDefaultAsync(q => EF.Property<int>(q, primaryKeyName) == id);
     }
 
-    public Task AddAsync(T entity)
+    public async Task AddAsync(T entity)
     {
-        throw new NotImplementedException();
+        await _dbSet.AddAsync(entity);
+        await _applicationDbContext.SaveChangesAsync();
     }
 
     public Task UpdateAsync(T entity)

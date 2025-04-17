@@ -24,4 +24,23 @@ public class IngredientController : Controller
     {
         return View(await ingredientRepository.GetByIdAsync(id, new QueryOptions<Ingredient>() { Includes = "ProductIngredients.Product"}));
     }
+
+    //Ingredient/Create
+    [HttpGet]
+    public IActionResult Create()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Create([Bind("IngredientId, Name")] Ingredient ingredient)
+    {
+        if (ModelState.IsValid)
+        {
+            await ingredientRepository.AddAsync(ingredient);
+            return RedirectToAction("Index");
+        }
+        return View(ingredient);
+    }
 }
