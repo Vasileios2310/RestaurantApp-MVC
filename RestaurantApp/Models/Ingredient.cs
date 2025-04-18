@@ -8,8 +8,6 @@ public class Ingredient
     
     public string Name { get; set; }
     
-    //public string? Description { get; set; }
-    
     [ValidateNever]
     public ICollection<ProductIngredient> ProductIngredients { get; set; }
 }

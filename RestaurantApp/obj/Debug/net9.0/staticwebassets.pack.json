@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/07a50190-85dd-46ad-bcf2-8a983cf3a54a_2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/07a50190-85dd-46ad-bcf2-8a983cf3a54a_2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg"
+    },
+    {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/11ed5281-c6a7-4ebf-8361-f297a644d7ec_9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/11ed5281-c6a7-4ebf-8361-f297a644d7ec_9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg"
+    },
+    {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/19b1f9af-d935-495d-92e8-d549e2b61776_2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/19b1f9af-d935-495d-92e8-d549e2b61776_2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg"
+    },
+    {
       "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg",
       "PackagePath": "staticwebassets/images/2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg"
     },
@@ -21,20 +33,68 @@
       "PackagePath": "staticwebassets/images/2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg"
     },
     {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/71c78653-6908-4199-a42c-e6ba1e1d373d_2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/71c78653-6908-4199-a42c-e6ba1e1d373d_2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg"
+    },
+    {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/7ad9a798-f3e9-4128-8af2-516783ff0bc8_f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/7ad9a798-f3e9-4128-8af2-516783ff0bc8_f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg"
+    },
+    {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/818b8473-a6e4-42a9-8abd-5e1ccda7699f_2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/818b8473-a6e4-42a9-8abd-5e1ccda7699f_2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg"
+    },
+    {
       "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg",
       "PackagePath": "staticwebassets/images/9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg"
+    },
+    {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/a89f7f98-5952-438a-a484-63a6ca4065cd_f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/a89f7f98-5952-438a-a484-63a6ca4065cd_f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg"
+    },
+    {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/b7edd18a-041c-4705-a1b0-a28c9d56c64a_9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/b7edd18a-041c-4705-a1b0-a28c9d56c64a_9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg"
     },
     {
       "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/beeftacos.jpg",
       "PackagePath": "staticwebassets/images/beeftacos.jpg"
     },
     {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/c4789e0c-99fb-4269-b672-b0f36a5aa42b_9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/c4789e0c-99fb-4269-b672-b0f36a5aa42b_9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg"
+    },
+    {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/c4836a99-b91a-4dc7-9a94-59b36e999ed4_9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/c4836a99-b91a-4dc7-9a94-59b36e999ed4_9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg"
+    },
+    {
       "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/chickentacos.jpg",
       "PackagePath": "staticwebassets/images/chickentacos.jpg"
     },
     {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/d229631d-1a0b-4a26-85eb-f0ce2337f07f_9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/d229631d-1a0b-4a26-85eb-f0ce2337f07f_9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg"
+    },
+    {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/f32833b5-66bb-4ab5-99fa-40a0e3eac67b_2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/f32833b5-66bb-4ab5-99fa-40a0e3eac67b_2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg"
+    },
+    {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/f432a220-f6c1-4f59-aeb1-ba494183f5ab_2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/f432a220-f6c1-4f59-aeb1-ba494183f5ab_2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg"
+    },
+    {
       "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg",
       "PackagePath": "staticwebassets/images/f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg"
+    },
+    {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/f8f45a04-3c7e-4cf0-ae93-c0abd248afbe_2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/f8f45a04-3c7e-4cf0-ae93-c0abd248afbe_2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg"
+    },
+    {
+      "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/febb5e32-551b-49eb-bad1-6091659c502e_2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg",
+      "PackagePath": "staticwebassets/images/febb5e32-551b-49eb-bad1-6091659c502e_2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg"
     },
     {
       "Id": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/fishtacos.jpg",

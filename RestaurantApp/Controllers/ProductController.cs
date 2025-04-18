@@ -6,44 +6,134 @@ using RestaurantApp.Repositories;
 namespace RestaurantApp.Controllers;
 
 public class ProductController : Controller
-{
-    private Repository<Product> _productRepository;
-    private Repository<Ingredient> _ingredientRepository; 
-    private Repository<Category> _categoryRepository;
-
-    public ProductController(ApplicationDbContext context)
     {
-        _productRepository = new Repository<Product>(context);
-        _ingredientRepository = new Repository<Ingredient>(context);
-        _categoryRepository = new Repository<Category>(context);
-    }
+        private Repository<Product> productRepository;
+        private Repository<Ingredient> ingredientRepository;
+        private Repository<Category> categoryRepository;
+        private readonly IWebHostEnvironment _webHostEnvironment;
 
-    public async Task<IActionResult> Index()
-    {
-        return View(await _productRepository.GetAllAsync());
-    }
-
-    /// <summary>
-    /// Fetch all ingredients and categories from the database
-    /// And store them in ViewBag, which is a dynamic object you can use in Razor views to pass simple data from controller to view.
-    /// Dropdown selection in form or Multi-select or checkboxes or 
-    /// </summary>
-    /// <param name="id"></param>
-    /// <returns></returns>
-    [HttpGet]
-    public async Task<IActionResult> AddEdit(int id)
-    {
-        ViewBag.Ingredients = await _ingredientRepository.GetAllAsync();
-        ViewBag.Categories = await _categoryRepository.GetAllAsync();
-        if (id == 0)
+        public ProductController(ApplicationDbContext context, IWebHostEnvironment webHostEnvironment)
         {
-            ViewBag.Operation  = "Add"; // add a new Product
-            return View (new Product());
+            productRepository = new Repository<Product>(context);
+            ingredientRepository = new Repository<Ingredient>(context);
+            categoryRepository = new Repository<Category>(context);
+            _webHostEnvironment = webHostEnvironment;
         }
-        else
+
+        public async Task<IActionResult> Index()
         {
-            ViewBag.Operation = "Edit"; // else edit the product
-            return View();
+            return View(await productRepository.GetAllAsync());
         }
-    }
+
+        [HttpGet]
+        public async Task<IActionResult> AddEdit(int id)
+        {
+            ViewBag.Ingredients = await ingredientRepository.GetAllAsync();
+            ViewBag.Categories = await categoryRepository.GetAllAsync();
+            if(id==0)
+            {
+                ViewBag.Operation = "Add";
+                return View(new Product());
+            }
+            else
+            {
+                Product product = await productRepository.GetByIdAsync(id, new QueryOptions<Product>
+                {
+                    Includes = "ProductIngredients.Ingredient, Category"
+                });
+                ViewBag.Operation = "Edit";
+                return View(product);
+            }
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddEdit(Product product, int[] ingredientIds, int catId)
+        {
+            ViewBag.Ingredients = await ingredientRepository.GetAllAsync();
+            ViewBag.Categories = await categoryRepository.GetAllAsync();
+            if (ModelState.IsValid)
+            {
+
+                if (product.ImageFile != null)
+                {
+                    string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
+                    string uniqueFileName = Guid.NewGuid().ToString() + "_" + product.ImageFile.FileName;
+                    string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await product.ImageFile.CopyToAsync(fileStream);
+                    }
+                    product.ImageUrl = uniqueFileName;
+                }
+
+                if (product.ProductId == 0)
+                {
+                   
+                    product.CategoryId = catId;
+
+                    //add ingredientRepository
+                    foreach (int id in ingredientIds)
+                    {
+                        product.ProductIngredients?.Add(new ProductIngredient { IngredientId = id, ProductId = product.ProductId });
+                    }
+
+                    await productRepository.AddAsync(product);
+                    return RedirectToAction("Index", "Product");
+                }
+                else
+                {
+                    var existingProduct = await productRepository.GetByIdAsync(product.ProductId,
+                        new QueryOptions<Product> { Includes = "ProductIngredients" });
+
+                    if (existingProduct == null)
+                    {
+                        ModelState.AddModelError("", "Product not found.");
+                        ViewBag.Ingredients = await ingredientRepository.GetAllAsync();
+                        ViewBag.Categories = await categoryRepository.GetAllAsync();
+                        return View(product);
+                    }
+
+                    existingProduct.Name = product.Name;
+                    existingProduct.Description = product.Description;
+                    existingProduct.Price = product.Price;
+                    existingProduct.Stock = product.Stock;
+                    existingProduct.CategoryId = catId;
+
+                    // Update product ingredientRepository
+                    existingProduct.ProductIngredients?.Clear();
+                    foreach (int id in ingredientIds)
+                    {
+                        existingProduct.ProductIngredients?.Add(new ProductIngredient { IngredientId = id, ProductId = product.ProductId });
+                    }
+
+                    try
+                    {
+                        await productRepository.UpdateAsync(existingProduct);
+                    }
+                    catch (Exception ex)
+                    {
+                        ModelState.AddModelError("", $"Error: {ex.GetBaseException().Message}");
+                        ViewBag.Ingredients = await ingredientRepository.GetAllAsync();
+                        ViewBag.Categories = await categoryRepository.GetAllAsync();
+                        return View(product);
+                    }
+                }
+            }
+            return RedirectToAction("Index", "Product");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                await productRepository.DeleteAsync(id);
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                ModelState.AddModelError("", "Product not found.");
+                return RedirectToAction("Index");
+            } 
+        }
 }
