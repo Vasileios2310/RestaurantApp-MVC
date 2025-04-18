@@ -213,7 +213,6 @@
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/nezrqnk58p-muycvpuwrr.gz
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/v0zgfp0y55-87fc7y1x7t.gz
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/yfc7ypekbg-mlv21k5csn.gz
-/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-lugek5hnai.gz
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/3mpa72anaq-61n19gt1b8.gz
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/pf14jdv96p-fr7q2aak1r.gz
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/4oi8urmv1i-bqjiyaj88i.gz
@@ -292,3 +291,4 @@
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/RestaurantApp.pdb
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/RestaurantApp.genruntimeconfig.cache
 /Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/ref/RestaurantApp.dll
+/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-4nqf7p9osk.gz

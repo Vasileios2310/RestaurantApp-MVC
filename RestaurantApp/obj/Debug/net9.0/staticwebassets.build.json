@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IkCtM8LvsHg/ItvfQzB3VEV+r5pZ94VQpm86ti6NTW4=",
+  "Hash": "P6rAuZwq8JP+SUsx73SOacF/UW/Uq+xDmeH8Dciq25Y=",
   "Source": "RestaurantApp",
   "BasePath": "_content/RestaurantApp",
   "Mode": "Default",
@@ -1760,12 +1760,12 @@
       "OriginalItemSpec": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/scopedcss/projectbundle/RestaurantApp.bundle.scp.css"
     },
     {
-      "Identity": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-lugek5hnai.gz",
+      "Identity": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-4nqf7p9osk.gz",
       "SourceId": "RestaurantApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/RestaurantApp",
-      "RelativePath": "css/site#[.{fingerprint=lugek5hnai}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=4nqf7p9osk}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1774,8 +1774,8 @@
       "RelatedAsset": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "fap03slvfg",
-      "Integrity": "B2NcGeycNm1fppl5ueYw/SoIaM1eiU6mnFitSmrq4lY=",
+      "Fingerprint": "v0rwkk24l9",
+      "Integrity": "z9SM4jXJYZlBpzxpW1BqBQeGR8Kt2qAzZ3M03U3B5/4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/css/site.css"
@@ -4042,8 +4042,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lugek5hnai",
-      "Integrity": "zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo=",
+      "Fingerprint": "4nqf7p9osk",
+      "Integrity": "oC/yp46z++5RK4b+rY1obocznjzygueyQCzZGdy069M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -4068,6 +4068,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg",
+      "SourceId": "RestaurantApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/",
+      "BasePath": "_content/RestaurantApp",
+      "RelativePath": "images/2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9g86g8b0eq",
+      "Integrity": "t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg"
+    },
+    {
+      "Identity": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg",
+      "SourceId": "RestaurantApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/",
+      "BasePath": "_content/RestaurantApp",
+      "RelativePath": "images/2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9g86g8b0eq",
+      "Integrity": "t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg"
+    },
+    {
+      "Identity": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg",
+      "SourceId": "RestaurantApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/",
+      "BasePath": "_content/RestaurantApp",
+      "RelativePath": "images/9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9g86g8b0eq",
+      "Integrity": "t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg"
+    },
+    {
+      "Identity": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/beeftacos.jpg",
+      "SourceId": "RestaurantApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/",
+      "BasePath": "_content/RestaurantApp",
+      "RelativePath": "images/beeftacos#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1htxu71jfp",
+      "Integrity": "dT1kwHKrUO951c7nPOF2QJtnE3WzMrtsrJFvO4EtM5U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/beeftacos.jpg"
+    },
+    {
+      "Identity": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/chickentacos.jpg",
+      "SourceId": "RestaurantApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/",
+      "BasePath": "_content/RestaurantApp",
+      "RelativePath": "images/chickentacos#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xufrdams9j",
+      "Integrity": "CX76VFksnI9i8EVSt2ig5aN85h3t6EteLRpwDOo9Bto=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/chickentacos.jpg"
+    },
+    {
+      "Identity": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg",
+      "SourceId": "RestaurantApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/",
+      "BasePath": "_content/RestaurantApp",
+      "RelativePath": "images/f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9g86g8b0eq",
+      "Integrity": "t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg"
+    },
+    {
+      "Identity": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/fishtacos.jpg",
+      "SourceId": "RestaurantApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/",
+      "BasePath": "_content/RestaurantApp",
+      "RelativePath": "images/fishtacos#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ien8qzvnz4",
+      "Integrity": "hmFtQCjkR+vrsUbOL+dNtg+3CRaTf6O09GwaYB4LPZk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/fishtacos.jpg"
     },
     {
       "Identity": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/js/site.js",
@@ -5353,6 +5500,167 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/site.4nqf7p9osk.css",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-4nqf7p9osk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002873563218"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z9SM4jXJYZlBpzxpW1BqBQeGR8Kt2qAzZ3M03U3B5/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:25:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oC/yp46z++5RK4b+rY1obocznjzygueyQCzZGdy069M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4nqf7p9osk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oC/yp46z++5RK4b+rY1obocznjzygueyQCzZGdy069M="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.4nqf7p9osk.css",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oC/yp46z++5RK4b+rY1obocznjzygueyQCzZGdy069M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:25:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4nqf7p9osk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oC/yp46z++5RK4b+rY1obocznjzygueyQCzZGdy069M="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.4nqf7p9osk.css.gz",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-4nqf7p9osk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z9SM4jXJYZlBpzxpW1BqBQeGR8Kt2qAzZ3M03U3B5/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:25:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4nqf7p9osk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z9SM4jXJYZlBpzxpW1BqBQeGR8Kt2qAzZ3M03U3B5/4="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "/Users/vasiliskr/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.3/staticwebassets/css/site.css",
       "Selectors": [],
@@ -5391,12 +5699,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-lugek5hnai.gz",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-4nqf7p9osk.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003194888179"
+          "Quality": "0.002873563218"
         }
       ],
       "ResponseHeaders": [
@@ -5406,15 +5714,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "312"
+          "Value": "347"
         },
         {
           "Name": "ETag",
-          "Value": "\"B2NcGeycNm1fppl5ueYw/SoIaM1eiU6mnFitSmrq4lY=\""
+          "Value": "\"z9SM4jXJYZlBpzxpW1BqBQeGR8Kt2qAzZ3M03U3B5/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 15:05:17 GMT"
+          "Value": "Fri, 18 Apr 2025 08:25:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5434,13 +5742,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo=\""
+          "Value": "W/\"oC/yp46z++5RK4b+rY1obocznjzygueyQCzZGdy069M=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo="
+          "Value": "sha256-oC/yp46z++5RK4b+rY1obocznjzygueyQCzZGdy069M="
         }
       ]
     },
@@ -5455,7 +5763,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "637"
+          "Value": "714"
         },
         {
           "Name": "Content-Type",
@@ -5463,11 +5771,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo=\""
+          "Value": "\"oC/yp46z++5RK4b+rY1obocznjzygueyQCzZGdy069M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 15:05:17 GMT"
+          "Value": "Fri, 18 Apr 2025 08:25:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5477,13 +5785,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo="
+          "Value": "sha256-oC/yp46z++5RK4b+rY1obocznjzygueyQCzZGdy069M="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-lugek5hnai.gz",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-4nqf7p9osk.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5492,7 +5800,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "312"
+          "Value": "347"
         },
         {
           "Name": "Content-Type",
@@ -5500,11 +5808,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B2NcGeycNm1fppl5ueYw/SoIaM1eiU6mnFitSmrq4lY=\""
+          "Value": "\"z9SM4jXJYZlBpzxpW1BqBQeGR8Kt2qAzZ3M03U3B5/4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 15:05:17 GMT"
+          "Value": "Fri, 18 Apr 2025 08:25:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5522,168 +5830,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-B2NcGeycNm1fppl5ueYw/SoIaM1eiU6mnFitSmrq4lY="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.lugek5hnai.css",
-      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-lugek5hnai.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003194888179"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "312"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"B2NcGeycNm1fppl5ueYw/SoIaM1eiU6mnFitSmrq4lY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 15:05:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lugek5hnai"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.lugek5hnai.css",
-      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "637"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 15:05:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lugek5hnai"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zeR5PHeeHbxfGkL8WV86OzdoF6UnjuCmnagaocD+cbo="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.lugek5hnai.css.gz",
-      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/obj/Debug/net9.0/compressed/63qrsknpv2-lugek5hnai.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "312"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"B2NcGeycNm1fppl5ueYw/SoIaM1eiU6mnFitSmrq4lY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 15:05:17 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lugek5hnai"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-B2NcGeycNm1fppl5ueYw/SoIaM1eiU6mnFitSmrq4lY="
+          "Value": "sha256-z9SM4jXJYZlBpzxpW1BqBQeGR8Kt2qAzZ3M03U3B5/4="
         }
       ]
     },
@@ -14550,6 +14697,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-F1wMlgb/juW08DFUssW6Pm9EBKfjXXRiSK0F5FgXxJU="
+        }
+      ]
+    },
+    {
+      "Route": "images/2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.9g86g8b0eq.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "276585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:28:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9g86g8b0eq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE="
+        }
+      ]
+    },
+    {
+      "Route": "images/2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "276585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:28:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE="
+        }
+      ]
+    },
+    {
+      "Route": "images/2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.9g86g8b0eq.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "276585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9g86g8b0eq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE="
+        }
+      ]
+    },
+    {
+      "Route": "images/2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "276585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE="
+        }
+      ]
+    },
+    {
+      "Route": "images/9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.9g86g8b0eq.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "276585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:28:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9g86g8b0eq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE="
+        }
+      ]
+    },
+    {
+      "Route": "images/9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "276585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:28:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE="
+        }
+      ]
+    },
+    {
+      "Route": "images/beeftacos.1htxu71jfp.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/beeftacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dT1kwHKrUO951c7nPOF2QJtnE3WzMrtsrJFvO4EtM5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:28:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1htxu71jfp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/beeftacos.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dT1kwHKrUO951c7nPOF2QJtnE3WzMrtsrJFvO4EtM5U="
+        }
+      ]
+    },
+    {
+      "Route": "images/beeftacos.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/beeftacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dT1kwHKrUO951c7nPOF2QJtnE3WzMrtsrJFvO4EtM5U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:28:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dT1kwHKrUO951c7nPOF2QJtnE3WzMrtsrJFvO4EtM5U="
+        }
+      ]
+    },
+    {
+      "Route": "images/chickentacos.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/chickentacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CX76VFksnI9i8EVSt2ig5aN85h3t6EteLRpwDOo9Bto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:29:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CX76VFksnI9i8EVSt2ig5aN85h3t6EteLRpwDOo9Bto="
+        }
+      ]
+    },
+    {
+      "Route": "images/chickentacos.xufrdams9j.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/chickentacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CX76VFksnI9i8EVSt2ig5aN85h3t6EteLRpwDOo9Bto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:29:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xufrdams9j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/chickentacos.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CX76VFksnI9i8EVSt2ig5aN85h3t6EteLRpwDOo9Bto="
+        }
+      ]
+    },
+    {
+      "Route": "images/f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.9g86g8b0eq.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "276585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:29:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9g86g8b0eq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE="
+        }
+      ]
+    },
+    {
+      "Route": "images/f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "276585"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:29:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t6/wDb8uCECDhmQ8wdK3AjTCrdlxUjGzaaQ870O9RkE="
+        }
+      ]
+    },
+    {
+      "Route": "images/fishtacos.ien8qzvnz4.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/fishtacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "311266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hmFtQCjkR+vrsUbOL+dNtg+3CRaTf6O09GwaYB4LPZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:29:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ien8qzvnz4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/fishtacos.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hmFtQCjkR+vrsUbOL+dNtg+3CRaTf6O09GwaYB4LPZk="
+        }
+      ]
+    },
+    {
+      "Route": "images/fishtacos.jpg",
+      "AssetFile": "/Users/vasiliskr/7.C# .NET/WebApplicationMVC/RestaurantApp/wwwroot/images/fishtacos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "311266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hmFtQCjkR+vrsUbOL+dNtg+3CRaTf6O09GwaYB4LPZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 08:29:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hmFtQCjkR+vrsUbOL+dNtg+3CRaTf6O09GwaYB4LPZk="
         }
       ]
     },

@@ -62,7 +62,6 @@ public class IngredientController : Controller
         await ingredientRepository.UpdateAsync(ingredient);
         return RedirectToAction("Index");
     }
-
     
     //Ingredient/Delete
     [HttpGet]
@@ -78,6 +77,4 @@ public class IngredientController : Controller
         await ingredientRepository.DeleteAsync(ingredient.IngredientId);
         return RedirectToAction("Index");
     }
-    
-    
 }
