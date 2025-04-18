@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using RestaurantApp.Data;
 using RestaurantApp.Models;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
