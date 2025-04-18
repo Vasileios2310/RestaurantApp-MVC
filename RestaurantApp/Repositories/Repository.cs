@@ -52,7 +52,8 @@ public class Repository<T> : IRepository<T> where T : class
 
     public Task UpdateAsync(T entity)
     {
-        throw new NotImplementedException();
+        _dbSet.Update(entity);
+        return _applicationDbContext.SaveChangesAsync();
     }
 
     public async Task DeleteAsync(int id)

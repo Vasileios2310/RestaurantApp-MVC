@@ -44,6 +44,26 @@ public class IngredientController : Controller
         return View(ingredient);
     }
     
+    //Ingredient/Edit
+    [HttpGet]
+    public async Task<IActionResult> Edit(int id)
+    {
+        return View(await ingredientRepository.GetByIdAsync(id, new QueryOptions<Ingredient>
+            {
+                Includes = "ProductIngredients.Product"
+            }
+        ));
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> Edit(Ingredient ingredient)
+    {
+        await ingredientRepository.UpdateAsync(ingredient);
+        return RedirectToAction("Index");
+    }
+
+    
     //Ingredient/Delete
     [HttpGet]
     public async Task<IActionResult> Delete(int id)
@@ -58,4 +78,6 @@ public class IngredientController : Controller
         await ingredientRepository.DeleteAsync(ingredient.IngredientId);
         return RedirectToAction("Index");
     }
+    
+    
 }
